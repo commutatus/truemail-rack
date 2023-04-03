@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby(::File.read(::File.join(::File.dirname(__FILE__), '.ruby-version')).strip[/-(.+)/, 1])
+ruby "3.2.0"
 
 gem 'dry-struct', '~> 1.6'
 gem 'net-smtp', '~> 0.3.3'
